@@ -57,12 +57,27 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 100px;
+    margin: 50px;
 }
 
-.content-left,
 .content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+img {
+    margin: 50px;
+}
+
+button {
+    margin: 50px;
 }
