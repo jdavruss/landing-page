@@ -91,5 +91,53 @@ button {
     border-radius: 10px;
     font-weight: bold;
     color: white;
+}
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box-blue {
+    border: 2px solid #3882f6;
+    padding: 100px;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
+}
+
+.p-third {
+    font-size: 28px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    font-weight: bold;
 }
