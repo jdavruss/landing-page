@@ -17,6 +17,7 @@ body{
 #header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-left: 80px;
 }
 
 .header-link {
@@ -38,10 +39,14 @@ ul {
 .navbar-right{
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+.navbar-right {
+    justify-content: flex-end;
+    margin-right: 80px;
+}
 .one,
 .two{
     margin-right: 40px;
