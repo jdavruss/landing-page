@@ -61,6 +61,7 @@ h1{
     margin: 50px;
 }
 
+.content-left,
 .content-right {
     display: flex;
     justify-content: center;
@@ -68,16 +69,17 @@ h1{
     flex-direction: column;
 }
 
-.content-left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.header-link {
+    margin-left: 40px;
 }
 
 img {
-    margin: 50px;
+    margin: 80px;
 }
 
 button {
     margin: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
 }
