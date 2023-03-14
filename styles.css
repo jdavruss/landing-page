@@ -98,20 +98,24 @@ h2 {
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .row-of-blue-divs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
-.box-blue {
+.box-blue img{
+    display: block;
     border: 2px solid #3882f6;
-    padding: 100px;
     border-radius: 15px;
-    margin: 40px;
+    margin: 5px 20px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .p-second {
@@ -179,6 +183,6 @@ h3 {
     display: flex;
     justify-content: center;
     color: white;
-    padding: 6P0px;
+    padding: 60px;
     font-size: 26px;
 }
