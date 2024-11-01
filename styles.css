@@ -125,25 +125,30 @@ h2 {
 }
 
 .third-section {
+    display: flex;
     background-color: #e5e7eb;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-h3 {
+.quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
-.p-third {
+.author {
     font-size: 28px;
     margin-left: 1000px;
     margin-top: 50px;
     font-weight: bolder;
+    align-items: center;
 }
 
 .fourth-section{
